@@ -3,4 +3,12 @@ let nome = 'Kahmmylleh';
 let idade = 23;
 let status = true;
 let sobrenome = undefined;
-let corSelect = null;
+
+let pessoa = {
+    nome: 'Kahmmylleh',
+    idade: 23,
+    status: true,
+    sobrenome: 'Alpes'
+};
+
+console.log(pessoa);
